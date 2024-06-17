@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: "Roboto";
+
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.titulo{
+    height: 100px;
+    margin: auto;
+    padding: 1%;
+    background-color: rgb(230, 39, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    margin-left: 4%;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.logo-inter{
+    width: 45%;
+    margin-left: 1%;
+    text-align: left;
+
+}
+
+img{
+    width: 500px;
+    border-radius: 10px;
+   
+}
+ 
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    margin:auto;
+   margin-top: 2%;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
